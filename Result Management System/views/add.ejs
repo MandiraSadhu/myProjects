@@ -1,0 +1,47 @@
+
+    <div class="container-fluid py-3">
+       <header class="text-center">
+           <h1 class="h2 mb-3 font-weight-normal" style="text-decoration:underline;">Add New Result</h1>
+       </header>
+    </div>
+   <section class="container my-2 w-50 p-2">
+    <form action="/add" method="POST" class="row g-3 p-3">
+        <div class="col-md-3">
+            <label for="roll" class="form-label">Roll : </label>  
+        </div>
+        <div class="col-md-9">
+            <input type="number" class="form-control" id="roll" name="roll"> 
+        </div>
+
+
+       <div class="col-md-3">
+                <label for="name" class="form-label">Name :</label>
+        </div>
+
+        <div class="col-md-9">
+                <input type="text" class="form-control" id="name" name="name">
+        </div>
+
+        <div class="col-md-3">
+          <label for="dob" class="form-label">Date Of Birth :</label>
+        </div>
+
+        <div class="col-md-9">
+            <input type="date" class="form-control" id="dob" name="dob" >
+        </div>
+
+        <div class="col-md-3">
+              <label for="score" class="form-label">Score :</label>
+        </div>
+
+        <div class="col-md-9">
+                <input type="Number" class="form-control" id="score" name="score" >
+        </div>
+
+        <div class="col-md-3 ">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+    </form>
+    </section>
+  
